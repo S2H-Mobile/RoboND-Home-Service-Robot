@@ -2,7 +2,7 @@
 <package format="2">
   <name>wall_follower</name>
   <version>0.0.1</version>
-  <description>This package contains an implementation of the wall folloer algorithm to help a mobile robot perform SLAM.</description>
+  <description>This package contains an implementation of the wall follower algorithm to help a mobile robot perform SLAM.</description>
 
   <author email="S2H.Mobile@gmail.com">Stephan Hohne</author>
   <maintainer email="S2H.Mobile@gmail.com">Stephan Hohne</maintainer>
