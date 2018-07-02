@@ -1,0 +1,6 @@
+<!--
+  Used for visualising the pick_objects nodes.
+ -->
+<launch>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find pick_objects)/../RvizConfig/pick_objects_visualization.rviz"/>
+</launch>
