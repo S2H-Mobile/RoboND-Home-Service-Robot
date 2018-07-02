@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>add_markers</name>
+  <version>0.0.1</version>
+  <description>This package contains a C++ node that adds a cubical marker to the environment.</description>
+
+  <author email="S2H.Mobile@gmail.com">Stephan Hohne</author>
+  <maintainer email="S2H.Mobile@gmail.com">Stephan Hohne</maintainer>
+
+  <license>MIT</license>
+
+  <url type="repository">https://github.com/S2H-Mobile/RoboND-Home-Service-Robot</url>
+
+  <!-- The *depend tags are used to specify dependencies -->
+  <!-- Dependencies can be catkin packages or system dependencies -->
+  <!-- Use depend as a shortcut for packages that are both build and exec dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>visualization_msgs</build_export_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

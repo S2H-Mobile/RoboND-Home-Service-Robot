@@ -1,0 +1,6 @@
+<!--
+  Used for visualising the add_markers nodes.
+ -->
+<launch>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find add_markers)/../RvizConfig/add_markers_visualization.rviz"/>
+</launch>
